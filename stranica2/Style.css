@@ -1,0 +1,16 @@
+body {
+	 padding: 0px;
+	 margin: 0px;
+background-color:#d1bec5;
+}
+
+.Glavno{
+text-align: center;
+background-color:#c7c3c4;
+font-family: Georgia; 
+font-size: 15px;
+border-bottom:solid 5px red;
+padding: 5px 5px 0px 5px;
+margin: 0px;
+
+}

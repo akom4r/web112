@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name = "author" content = "Arandjel">
+    <title>Domaci</title>
+    <script src = "https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <style>
+      .Body{
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+      <h1 class = "Naslov">Domaci</h1>
+      <h4></h4>
+      <button class = "PipniButton">Pipni</button>
+      <button class = "Reee">Da</button>
+    
+ 
+  
+  </body>
+</html>
+  <script>
+
+      $(document).ready(function(){
+        $('.PipniButton').click(function(){
+          $('h1').css('color', 'Green');
+        
+
+        });
+        $('.Reee').click(function(){
+          $.get("DJL.php", function(data){
+            $('h4').html('<h4>' + data + '</h4>');
+          });
+        });
+      });
+
+    </script>
